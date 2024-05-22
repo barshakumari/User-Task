@@ -116,10 +116,7 @@ const Home = () => {
                             <Link to={`/users/${data.id}`}>
                             <button className='bg-blue-400 text-white px-3 py-1 rounded-md'>View</button>
                             </Link>
-                            <Link to={`/edit/${data.id}`}>
-                            <button className='bg-blue-500 text-white px-3 py-1 rounded-md'>Edit</button>
-                            </Link>
-                            <button title='Double Click' onClick={()=>handledelete(data.id)} className='bg-blue-600 text-white px-3 py-1 rounded-md'>Delete</button>
+                         
                         </td>
                         </tr>
                         ))}
@@ -136,10 +133,8 @@ const Home = () => {
                          <Link to={`/users/${data.id}`}>
                          <button className='bg-blue-400 text-white px-3 py-1 rounded-md'>View</button>
                          </Link>
-                         <Link to={`/edit/${data.id}`}>
-                         <button className='bg-blue-500 text-white px-3 py-1 rounded-md'>Edit</button>
-                         </Link>
-                         <button title='Double Click' onClick={()=>handledelete(data.id)} className='bg-blue-600 text-white px-3 py-1 rounded-md'>Delete</button>
+                        
+                       
                      </td>
                      </tr>
                      ))}
